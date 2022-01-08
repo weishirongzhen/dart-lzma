@@ -29,8 +29,8 @@ References:
 part of lzma;
 
 class Params {
-  int dictionarySize = 23;
-  int fb = 128;
+  int dictionarySize = 20;
+  int fb = 64;
   int matchFinder = Encoder.EMatchFinderTypeBT4;
   int lc = 3;
   int lp = 0;
